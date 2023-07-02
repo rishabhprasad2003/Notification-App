@@ -1,0 +1,7 @@
+
+The Notifier App is a Python project designed to provide timely notifications and reminders to users. 
+The app aims to streamline the process of managing tasks and events by sending automated notifications based on user preferences. 
+
+The project utilizes various Python libraries and modules to achieve its functionality.
+For GUI; I have used tkinter library of python
+And for the notification, I used plyer module in pyhton
