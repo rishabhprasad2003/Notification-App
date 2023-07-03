@@ -21,8 +21,9 @@ def button_click():
         messagebox.showwarning("WARNING!!", "Enter the values!")
 
     else:
-        int_time = int(float(get_time))
-        min_to_sec = int_time*60
+        #int_time = int(float(get_time))
+        int_time = 60*float(get_time)
+        min_to_sec = int_time
 
         messagebox.showinfo("Notification", "Notifier set!!!")
         t.destroy()
